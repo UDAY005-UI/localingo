@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import axios from "axios";
 import dotenv from "dotenv";
 
-import { getMood, getIntent } from "../utils/placeMappings";
+import { getMood, getIntent } from "../utils/placeMappings.js";
 dotenv.config();
 
 type Place = {
