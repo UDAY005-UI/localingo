@@ -1,0 +1,27 @@
+# Node dependencies
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (keep secrets out of Git)
+.env
+.env.*.local
+
+# Build artifacts (if using TypeScript or transpilers)
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: IDE / editor configs
+.vscode/
+.idea/
+
+# Others
+*.pem
